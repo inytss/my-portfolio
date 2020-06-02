@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+
+.navbar li{
+    /*display: flex;*/
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+}
+
+nav a {
+    font-family: 'Bitter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+nav a:visited{
+    color: #ebc713;
+} 
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(34, 36, 37) !important;
+   color: rgb(209, 203, 199) !important;
+   text-align: justify;
+} 
+
+h1 {
+    font-family: 'Bitter', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: inline;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+
+}
+
+h2 a {
+    color: #ebc713;
+}
+
+.container-main {
+    font-size: 28px;
+    font-family: 'Bitter', sans-serif;
+    font-weight: 700;
+    color: #ebc713;
+    align-items: center;
+    text-align: center;
+    padding-left: 8cm;
+    background-color: #000000;
+}
+
+#post {
+    overflow: auto;
+    float: right;
+    width: 75%;
+}
+
+aside {
+    position: fixed;
+    width: 25%;
+    padding-left: 0px;
+    padding-right: 0px;
+    bottom: 0;
+    left: 0;
+}
+
+.container {
+    background-color: rgb(7, 7, 8) !important; 
+    color: rgba(232, 229, 227, 0.5) !important;
+    padding: 60px;
+    text-align: center;
+    color: #ebc713 !important;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+}
+
+.container h2 {
+    font-size: 25px;
+    font-family: 'Bitter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -2.1cm;
+}
+
+.social a {
+        padding: 0 4px;
+        border-style: none;
+        text-decoration: none;
+}
+
+.svg-inline--fa.fa-lg {
+    vertical-align: -.225em;
+}
+
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    height: 1em;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #000000;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    padding: 20px;
+    color: #ebc713;
+    background-color: #1d2122;
+    text-align: center;
+    padding-top: 3cm;
+    padding-left: 7.5cm;
+}
+
+main {
+    padding-left: 7cm;
+    overflow: auto;
+    width: 100%;
+    float: right;
+    padding-right: 1cm;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+    #post,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
